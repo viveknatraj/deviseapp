@@ -1,0 +1,10 @@
+<h1>Editing User</h1>
+
+<%= render 'form' %>
+
+<div id="shift-form" style="display:none;"></div>
+<div id="shift-details" style="display:none;"></div>
+<%= link_to 'List Shift Details', shift_details_url, remote: true %> |
+<%= link_to 'New Shift Detail', new_shift_detail_path, remote: true %> |
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>

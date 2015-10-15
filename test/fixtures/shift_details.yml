@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shift_name: MyString
+  start_time: 2015-10-10 21:08:05
+  end_time: 2015-10-10 21:08:05
+  description: MyText
+  user_id: 
+
+two:
+  shift_name: MyString
+  start_time: 2015-10-10 21:08:05
+  end_time: 2015-10-10 21:08:05
+  description: MyText
+  user_id: 

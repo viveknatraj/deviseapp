@@ -1,0 +1,12 @@
+<% if user_signed_in? %>
+
+  <h3><%= current_user.name %> have successfully signed in</h3><br/>
+  <%= link_to 'User Details', users_url if current_user.email == 'vivek1bks@gmail.com' %></br>
+  <%= link_to 'Shift Details', shift_details_url %><br/>
+
+<% else %>
+  <h1> Welcome to rails community</h1>
+  <%= link_to "Sign In", new_user_session_path, method: :get %>
+  <%= link_to "Sign up", new_user_registration_path, method: :get %>
+
+<% end %>
